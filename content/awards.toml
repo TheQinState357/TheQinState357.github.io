@@ -1,0 +1,39 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "Outstanding Graduates of 2024 from General Higher Education Institutions in Hunan Province"
+subtitle = "Organization"
+date = "06/2024"
+content = "Description of the award."
+
+[[items]]
+title = "National Scholarship of the People's Republic of China"
+subtitle = "Organization"
+date = "10/2023"
+content = "Description of the award."
+
+[[items]]
+title = "Special Prize at the 2023 Hunan Provincial Higher Education Association's Computer Education Committee Annual Conference (First Author)"
+subtitle = "Organization"
+date = "07/2023"
+content = "The paper titled ‘Research and Preliminary Exploration on the Key Paths of 'Metaverse-Education Integration' to Cultivate Students' Abilities to Solve Complex Engineering Problems’, which introduced a metaverse teaching system based on Extended Reality (XR) technology, termed ‘Metaverse-Education Integration’."
+
+[[items]]
+title = "The National Second Prize (First Author) at the 15th China University Student Computer Design Competition"
+subtitle = "Organization"
+date = "07/2022"
+content = "Developed a semi-open world 3D game using the UE4 (Unreal Engine 4) titled ‘Mid-Autumn’."
+
+[[items]]
+title = "The Special Prize at the 2022 Hunan Provincial Higher Education Association's Computer Education Committee Annual Conference (First Author)   "
+subtitle = "Organization"
+date = "07/2022"
+content = "The paper titled ‘Exploration and Practice of a Curriculum Assignment Metaverse Based on Extended Reality’, which addressed the issues of weakened or suppressed functionality, overly abstract forms, and lack of meticulous design in Chinese university coursework assignments."
+
+[[items]]
+title = "The National Third Prize (First Author) at the 14th China University Student Computer Design Competition"
+subtitle = "Organization"
+date = "07/2021"
+content = "Completed micro-course titled ‘Let's Get Vaccinated Together’, which focused on the application of immunology to vaccines and explanation of the concept of vaccines, the mechanism of vaccines and the history of the earliest vaccines."

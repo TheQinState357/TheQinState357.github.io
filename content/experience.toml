@@ -1,0 +1,10 @@
+type = "card"
+title = "Experience"
+description = "Courses I have taught or assisted with."
+
+[[items]]
+title = "School of Computer Science Higer Degree by Research Student Committee, The University of Sydney"
+subtitle = "Deputy Chair"
+date = "2025-2026"
+content = "Description of the course and responsibilities."
+tags = ["Undergraduate", "CS"]

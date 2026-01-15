@@ -1,0 +1,69 @@
+[site]
+title = "Jinrong Fu"
+description = "MPhil student at the University of Sydney."
+favicon = "/favicon.svg"
+last_updated = "November 18, 2025"
+
+[author]
+name = "Jinrong Fu"
+title = "MPhil Student"
+institution = "The University of Sydney"
+avatar = "/bio.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "jifu0553@uni.sydney.edu.au"
+location = "Sydney, Australia"
+location_url = "https://maps.app.goo.gl/iQisz9NKLA8YXLXd8"
+location_details = [
+  "Level 4, Computer Science Building J12 | ",
+  "The University of Sydney | NSW | 2006 | Sydney | Australia"
+]
+google_scholar = "https://scholar.google.com/citations?user=noIs--8AAAAJ&hl=en"
+orcid = "https://orcid.org/0009-0004-7531-6517"
+github = "https://github.com"
+linkedin = "www.linkedin.com/in/jinrong-fu-44b480372"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Experience"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"
