@@ -243,13 +243,14 @@ body {
 .profile-card { border-top: 3px solid var(--accent); border-bottom: 1px solid var(--neutral-300); padding: 1rem 0; }
 .profile-intro { display:flex; align-items:center; gap:1rem; }
 .profile-intro h1 { font: 650 clamp(1.75rem,3vw,2.4rem)/1.15 Georgia,serif; margin-bottom:.35rem; }
-.profile-intro p,.profile-interests,.profile-details { font-size:.88rem; line-height:1.55; }
+.profile-intro p,.profile-interests { font-size:.88rem; line-height:1.55; }
 .profile-portrait { width:4.6rem;height:4.6rem;object-fit:cover;object-position:32% center;border-radius:.4rem; }
-.profile-interests,.profile-details { margin-top:.85rem; }
-.profile-links {display:flex;gap:.4rem 1.15rem;flex-wrap:wrap;margin-top:.8rem;}
-.profile-card a {color:var(--accent);text-decoration:underline;text-underline-offset:.22em;}
-.profile-details summary {cursor:pointer;color:var(--neutral-600);}
-.profile-details p {margin-top:.5rem;}
+.profile-interests { margin-top:.85rem; }
+.profile-social-icons {display:flex;flex-wrap:nowrap;align-items:center;max-width:19rem;margin-top:.8rem;}
+.profile-social-icons a {display:flex;align-items:center;justify-content:center;flex:1 1 0;min-width:0;max-width:44px;height:44px;color:var(--accent);text-decoration:none;border-radius:.35rem;}
+.profile-social-icons svg {width:21px;height:21px;flex-shrink:0;}
+.profile-social-icons a:hover,.profile-social-icons a:focus-visible {background:var(--neutral-100);}
+.dark .profile-social-icons a:hover,.dark .profile-social-icons a:focus-visible {background:var(--neutral-800);}
 @media (min-width:1024px) {
  .profile-card {padding:1.25rem 0;max-width:19rem;}
  .profile-intro {display:block;}
