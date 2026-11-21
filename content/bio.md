@@ -1,3 +1,5 @@
-I am a Mphil student at the School of Computer Science, The University of Sydney, supervised by [Prof. Athman Bouguettaya](http://scslab.net/our-team/athman-bouguettaya/) and [Prof. Jiangshan Yu](https://jiangshanyu.github.io/index.html).
+I am an PhD student in the School of Computer Science at the University of Sydney, supervised by [Professor Athman Bouguettaya](http://scslab.net/our-team/athman-bouguettaya/) and [Associate Professor Jiangshan Yu](https://jiangshanyu.github.io/index.html).
 
-My current research focuses on Energy-as-a-Service of Computer Science.
+My research focuses on Internet of Things (IoT), Service Computing, particularly Crowdsourced Energy-as-a-Service (EaaS). I study Energy Loss prediction and provider reliability assessment to support service selection and composition, with the aim of improving the reliable delivery of wireless energy services.
+
+Alongside my research, I serve as Deputy Chair of the School of Computer Science HDR Student Representative Committee and as a Faculty of Engineering Student Representative in 2026. I have been elected Chair of the School’s HDR Student Representative Committee for 2027.
