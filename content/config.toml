@@ -1,19 +1,19 @@
 [site]
 title = "Jinrong Fu"
-description = "MPhil student at the University of Sydney."
+description = "Phd student at the University of Sydney."
 favicon = "/favicon.svg"
 last_updated = "November 18, 2025"
 
 [author]
 name = "Jinrong Fu"
-title = "MPhil Student"
+title = "PhD Student"
 institution = "The University of Sydney"
 avatar = "/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "jifu0553@uni.sydney.edu.au"
+email = "jinrong.fu@sydney.edu.au"
 location = "Sydney, Australia"
 location_url = "https://maps.app.goo.gl/iQisz9NKLA8YXLXd8"
 location_details = [
