@@ -1,6 +1,6 @@
 ## Education
 
-**The University of Sydney**, Mphil in Computer Science, *2025 - Present*
+**The University of Sydney**, PhD in Computer Science, *2025 - Present*
 - Research focus: Energy-as-a-Service, Service Computing, IoT, Edge Computing
 - Supervisor: Prof. Athman Bouguettaya and Prof. Jiangshan Yu
 
