@@ -31,9 +31,10 @@ export default function Profile({ author, social, researchInterests = [] }: Prop
       <Image src={author.avatar} alt={author.name} width={216} height={216} priority className="profile-portrait" />
       <h1>{author.name}</h1>
       <div className="profile-roles">
-        <p>PhD student, School of Computer Science, {author.institution}</p>
-        <p>Faculty of Engineering Student Representative</p>
-        <p>2027 Chair of HDR Student Representative Committee</p>
+        <p>{author.title} · School of Computer Science</p>
+        {author.institution.split(/[\n·]/).map(line => line.trim()).filter(Boolean).map(line => (
+          <p key={line}>{line}</p>
+        ))}
       </div>
     </div>
     <p className="profile-interests">{researchInterests.join(' · ')}</p>
