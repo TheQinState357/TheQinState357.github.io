@@ -2,7 +2,7 @@ type = "about"
 title = "About"
 
 [profile]
-research_interests = ["Service Computing", "Internet of Things", "Crowdsourced Energy Services"]
+research_interests = ["Service Computing", "Internet of Things", "Crowdsourced Energy-as-a-Service"]
 
 [[sections]]
 id = "about"
