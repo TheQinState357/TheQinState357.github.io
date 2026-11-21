@@ -1,14 +1,14 @@
 [site]
 title = "Jinrong Fu"
-description = "Phd student at the University of Sydney."
+description = "Jinrong Fu, PhD student at the University of Sydney, studies reliable wireless energy services for the Internet of Things."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "November 22, 2026"
 
 [author]
 name = "Jinrong Fu"
 title = "PhD Student"
 institution = "The University of Sydney"
-avatar = "/bio.jpg"
+avatar = "/portrait.webp"
 
 [social]
 # Contact information (leave blank or delete to hide)
@@ -22,12 +22,12 @@ location_details = [
 ]
 google_scholar = "https://scholar.google.com/citations?user=noIs--8AAAAJ&hl=en"
 orcid = "https://orcid.org/0009-0004-7531-6517"
-github = "https://github.com"
-linkedin = "www.linkedin.com/in/jinrong-fu-44b480372"
+github = "https://github.com/TheQinState357"
+linkedin = "https://www.linkedin.com/in/jinrong-fu"
 
 [features]
 # Show a like button on the about page
-enable_likes = true
+enable_likes = false
 
 # Display all subpages on a single page
 enable_one_page_mode = false
@@ -39,31 +39,26 @@ target = "about"
 href = "/"
 
 [[navigation]]
+title = "Research"
+type = "page"
+target = "research"
+href = "/research/"
+
+[[navigation]]
 title = "Publications"
 type = "page"
 target = "publications"
-href = "/publications"
+href = "/publications/"
 
 [[navigation]]
-title = "Experience"
+title = "Leadership & Service"
 type = "page"
-target = "experience"
-href = "/experience"
-
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
+target = "leadership"
+href = "/leadership/"
 
 [[navigation]]
 title = "CV"
 type = "page"
 target = "cv"
-href = "/cv"
+href = "/cv/"
+

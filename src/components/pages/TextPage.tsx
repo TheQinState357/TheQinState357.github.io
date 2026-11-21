@@ -37,7 +37,7 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         a: ({ ...props }) => (
                             <a
                                 {...props}
-                                target="_blank"
+                                target={props.href?.startsWith("/") ? undefined : "_blank"}
                                 rel="noopener noreferrer"
                                 className="text-accent font-medium hover:underline transition-colors"
                             />

@@ -34,10 +34,10 @@ export default function SelectedPublications({ publications, title = 'Selected P
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4, delay: 0.1 * index }}
-                        className="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                        className="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] "
                     >
                         <h3 className="font-semibold text-primary mb-2 leading-tight">
-                            {pub.title}
+                            {pub.doi ? <a href={`https://doi.org/${pub.doi}`} className="hover:underline">{pub.title}</a> : pub.title}
                         </h3>
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-1">
                             {pub.authors.map((author, idx) => (
@@ -53,7 +53,7 @@ export default function SelectedPublications({ publications, title = 'Selected P
                             ))}
                         </p>
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
+                            {pub.journal || pub.conference} · {pub.year}
                         </p>
                         {pub.description && (
                             <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">

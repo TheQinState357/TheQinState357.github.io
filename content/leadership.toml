@@ -1,0 +1,20 @@
+type = "card"
+title = "Leadership & Service"
+
+[[items]]
+title = "Chair"
+subtitle = "School of Computer Science HDR Student Representative Committee"
+date = "2027 term"
+content = "Elected in December 2026."
+
+[[items]]
+title = "Deputy Chair"
+subtitle = "School of Computer Science HDR Student Representative Committee"
+date = "Jan – Dec 2026"
+content = "Represented research students at School Research Committee meetings and helped organise welcome events, coffee catch-ups and sessions on preparing for progress reviews."
+
+[[items]]
+title = "Student Representative"
+subtitle = "Faculty of Engineering, The University of Sydney"
+date = "2026"
+content = "Represented research students at Faculty Research Education Committee meetings."

@@ -29,7 +29,7 @@ export default function About({ content, title = 'About' }: AboutProps) {
                         a: ({ ...props }) => (
                             <a
                                 {...props}
-                                target="_blank"
+                                target={props.href?.startsWith("/") ? undefined : "_blank"}
                                 rel="noopener noreferrer"
                                 className="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
                             />
