@@ -1,12 +1,12 @@
 [site]
 title = "Jinrong Fu"
-description = "Jinrong Fu, PhD student at the University of Sydney, studies reliable wireless energy services for the Internet of Things."
+description = "Jinrong Fu is a PhD student at the University of Sydney researching crowdsourced IoT energy services. He is a Faculty of Engineering student representative and the 2027 Chair of the School of Computer Science HDR Student Representative Committee."
 favicon = "/favicon.svg"
 last_updated = "November 22, 2026"
 
 [author]
 name = "Jinrong Fu"
-title = "PhD Student"
+title = "PhD Student · Faculty of Engineering Student Representative · 2027 Chair, HDR Student Representative Committee"
 institution = "The University of Sydney"
 avatar = "/portrait.webp"
 
